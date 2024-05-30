@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+
+    
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color:lightseagreen;
+    height: 67px;
+    align-items: center;
+
+}
+.main a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4em;
+}
+.container{
+    
+    justify-content: center;
+    
+    height: 130px;
+    width: 550px;
+    margin: auto;
+    line-height: 50px;
+    margin-top: 200px;
+}
+.container h1{
+    line-height: 80px;
+}
+button{
+    height: 40px;
+    width: 80px;
+    font-size: 1.1em;
+    background-color: lightpink;
+   margin-left: 200px;
+   border-radius: 10px;
+}
